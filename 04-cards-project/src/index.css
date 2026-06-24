@@ -1,0 +1,124 @@
+body{
+  width:100%;
+  background-color: #5c5959;
+}
+
+.parent {
+  width: 100%;
+  background-color: #e98181;
+  padding: 30px;
+  gap: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;        
+  align-items: flex-start;           
+}
+
+.card{
+  height: 280px;
+  width: 230px;
+  background-color: #fff;
+  border-radius: 20px;
+  padding:30px;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  gap:5px;
+}
+
+.card .top{
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.top{
+  height:30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+  height:30px;
+  width:50px;
+  background-color: #111;
+  border-radius: 50%;
+  border: 1px solid black;
+  padding:2px;
+}
+
+.top button{
+  display:flex;
+  align-items: center;
+  border: 1px solid black;
+  padding:4px 8px;
+  font-size: 14px;
+  gap: 5px;
+  background-color: transparent;
+  color:#b1b1b1;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.bottom{
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  border-top: 1px solid black;
+  padding-top: 15px;
+}
+
+.bottom button{
+  background-color: #111;
+  color:white;
+  padding: 5px 10px;
+  border:none;
+  border-radiue:5px;
+  column-width:600;
+  font-weight: 500;
+}
+
+.bottom h3{
+  font-size: 17px;
+}
+
+.bottom p{
+  font-size: 10px;
+}
+
+.center{
+  padding-top: 20px;
+}
+.center h3{
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.center h3 span{
+  font-size: 9px;
+  font-weight: 400;
+  color:#8b8b8b;
+}
+
+.center h2{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.tag{
+  display:flex;
+  margin-top: 10px;
+  gap: 5px;
+}
+
+.tag h4{
+  border-radius: 5px;
+  font-size: 12px;
+  background-color: #dadada;
+  color:#111;
+  padding: 5px 10px;
+  font-weight: 500;
+  margin: 0;
+}
