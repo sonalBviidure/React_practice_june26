@@ -1,0 +1,15 @@
+.header{
+  background-color: lightseagreen;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  margin: 5px;
+}
+
+.btn{
+  background-color: #bae64b;
+  color: rgb(12, 55, 37);
+  padding: 10px 15px;
+  border: 2px solid black;
+}
